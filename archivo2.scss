@@ -1,0 +1,8 @@
+$font-stack: arial, sans-serif;
+$primary-color: pink
+;
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+}

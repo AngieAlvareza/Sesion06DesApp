@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Example</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilo personalizado para el encabezado */
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.8); /* Fondo más oscuro */
+            padding-top: 2px; /* Espacio superior reducido */
+            padding-bottom: 5px; /* Espacio inferior reducido */
+        }
+
+        .navbar-brand {
+            font-size: 24px; /* Tamaño de fuente aumentado */
+            font-weight: bold; /* Texto en negrita */
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 18px; /* Tamaño de fuente aumentado */
+        }
+    </style>
+    <style>
+        /* Estilo personalizado para la sección de imagen */
+        .fullscreen-image {
+            background-image: url("imagen3.jpg"); /* Reemplaza "tu-imagen.jpg" con la URL de tu imagen */
+            background-size: cover;
+            background-position: center;
+            height: 100vh; /* Tamaño de la pantalla completa */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        .learn-more-button {
+            background-color: #007bff; /* Color de fondo del botón */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <!-- ... (código del encabezado) ... -->
+    </nav>
+
+    <div class="fullscreen-image">
+        <h2>Texto Encima de la Imagen</h2>
+        <button class="btn learn-more-button">LEARN MORE</button>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="imagen3.jpg" alt="Imagen 1" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-md-6">
+                <p><strong>For Those about to rock</strong> ... Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam fugit facere, perspiciatis cupiditate aspernatur maxime cumque sapiente repellat reprehenderit quam ipsum in. Natus tempore reprehenderit illum, cumque illo animi explicabo!</p>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <img src="imagen2.jpg" alt="Imagen 2" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-md-6">
+                <p><strong>We salud you</strong></p>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <img src="imagen3.jpg" alt="Imagen 3" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-md-6">
+                <p><strong>Let there be rock</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4 text-center">
+        <p>One page wonder will rock your socks off</p>
+    </div>
+
+    <div class="container-fluid bg-dark text-white text-center py-2 fixed-bottom">
+        <p>&copy; 2023 Tu Nombre</p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
